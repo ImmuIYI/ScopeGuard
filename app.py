@@ -120,31 +120,30 @@ st.markdown("""
 # --- MAIN CONTENT (Adaptive Header) ---
     
     # This header is "Sticky". It stays at the top but moves when Sidebar collapses.
-# --- MAIN CONTENT (Adaptive Header) ---
 st.markdown("""
     <div style="
         position: sticky; 
         top: 0; 
-        z-index: 999999; /* Super high to sit ON TOP of the Github/Fork button */
-        background-color: #0F172A; 
+        z-index: 999999;
+        background-color: #0F172A;
+        margin-bottom: 20px;
         
-        /* THE FIX: Stretch background to cover the edges */
         margin-left: -20rem;
         margin-right: -20rem;
         padding-left: 20rem;
         padding-right: 20rem;
+        border-bottom: 1px solid #1E293B;
         
         padding-top: 15px;
         padding-bottom: 20px;
-        border-bottom: 1px solid #1E293B;
-        margin-bottom: 20px;
+        
         display: flex; 
         align-items: center; 
         gap: 12px;
     ">
-        <span style="font-size: 2.5rem;">🛡️</span> 
+        <span style="font-size: 2rem;">🛡️</span> 
         <span style="
-            font-size: 2.2rem; 
+            font-size: 1.8rem; 
             font-weight: 800; 
             font-family: 'Inter', sans-serif;
             background: linear-gradient(to right, #C7D2FE, #818CF8); 
