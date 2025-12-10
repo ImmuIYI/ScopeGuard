@@ -124,19 +124,11 @@ st.markdown("""
     <div style="
         position: sticky; 
         top: 0; 
-        z-index: 999999;
-        background-color: #0F172A;
-        margin-bottom: 20px;
-        
-        margin-left: -20rem;
-        margin-right: -20rem;
-        padding-left: 20rem;
-        padding-right: 20rem;
+        z-index: 1000; 
+        background-color: #0F172A; 
+        padding: 10px 0px 20px 0px;
         border-bottom: 1px solid #1E293B;
-        
-        padding-top: 15px;
-        padding-bottom: 20px;
-        
+        margin-bottom: 20px;
         display: flex; 
         align-items: center; 
         gap: 12px;
