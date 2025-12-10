@@ -153,8 +153,8 @@ st.markdown("""
         ">
             ScopeGuard
         </span>
-    </div>
-    """, unsafe_allow_html=True)
+</div>
+""", unsafe_allow_html=True)
 
 # --- 3. HELPER FUNCTIONS ---
 
